@@ -43,6 +43,7 @@ function onUserDeath()
                 userNotification('ѕротивогаз успешно сн€т и сохранен после смерти.')
             end
             isGasmask = false
+            wait(5000)
             isActiveSafe = false
         end)
     elseif not isCharDead(PLAYER_PED) and isDead then
@@ -51,8 +52,11 @@ function onUserDeath()
 end
 
 function sampev.onShowTextDraw(id, data)
-    if data.modelId == 19472 and isActiveSafe then 
-        isGasmask = true
+    if isActiveSafe then
+        if data.modelId == 19472 then 
+            isGasmask = true
+        end
+        return false
     end
 end
 
