@@ -1,4 +1,4 @@
-## [Samp-RP] Paleriders_MultiTool_cracked.lua - крякнутый MultiTool от Paleriders
+## [Samp-RP] Paleriders_MultiTool_cracked.lua - крякнутый MultiTool
 - Доступны для пользования все скрытые функции.
 - Убрано автообновление, проверка на присутствие в сквадах.
 - Обновляться будет исключительно после крупных патчей на оригинале.
